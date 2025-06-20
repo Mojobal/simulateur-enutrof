@@ -1,9 +1,8 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App'
-
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-)
+export default function App() {
+  return (
+    <div style={{ padding: 20 }}>
+      <h1>Simulateur de Dégâts - Enutrof</h1>
+      <p>Interface en cours d'intégration...</p>
+    </div>
+  );
+}
